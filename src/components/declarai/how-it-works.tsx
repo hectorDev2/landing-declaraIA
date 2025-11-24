@@ -1,20 +1,20 @@
-import { Smartphone, BrainCircuit, Landmark, ArrowRight } from "lucide-react";
+import { Smartphone, BrainCircuit, Landmark, ArrowRight, FileText, PieChart } from "lucide-react";
 
 const steps = [
   {
     icon: Smartphone,
-    title: "1. Toma la Foto",
-    description: "Sube tu factura o boleta desde el celular.",
+    title: "1. Captura o Sube",
+    description: "Toma fotos o sube tus comprobantes en PDF. El sistema acepta ambos formatos para tu comodidad.",
   },
   {
     icon: BrainCircuit,
-    title: "2. La IA Procesa",
-    description: "Nuestra IA extrae RUC, Montos e IGV automáticamente.",
+    title: "2. Clasificación y Extracción",
+    description: "La IA reconoce cada documento, clasifica si es venta o compra, y extrae montos y fechas automáticamente.",
   },
   {
-    icon: Landmark,
-    title: "3. Declarado a SUNAT",
-    description: "Se envía directo al SIRE. Sin errores.",
+    icon: PieChart,
+    title: "3. Resumen Tributario",
+    description: "Se arma automáticamente el resumen del mes: ventas, compras e IGV, listo para declarar.",
   },
 ];
 
@@ -27,7 +27,7 @@ export function HowItWorks() {
             ¿Cómo funciona?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            En solo tres simples pasos, tus declaraciones están listas. Rápido, fácil y sin errores.
+            El emprendedor toma fotos o sube sus comprobantes en PDF. La IA reconoce cada documento, clasifica si es venta o compra, extrae los montos y fechas, y arma automáticamente el resumen tributario del mes. Con esa información, el sistema genera la declaración lista para presentar ante la SUNAT, en solo minutos y sin hacer cálculos manuales.
           </p>
         </div>
 
