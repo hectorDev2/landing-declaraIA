@@ -1,5 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Check } from "lucide-react";
 
 export function Pricing() {
@@ -11,7 +18,8 @@ export function Pricing() {
             Un precio simple para tu tranquilidad
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Elige el plan que se adapte a tu negocio y empieza a ahorrar tiempo y dinero hoy mismo.
+            Elige el plan que se adapte a tu negocio y empieza a ahorrar tiempo
+            y dinero hoy mismo.
           </p>
         </div>
 
@@ -19,7 +27,9 @@ export function Pricing() {
           <Card className="shadow-lg bg-background flex flex-col">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl">Plan MYPE</CardTitle>
-              <CardDescription>Perfecto para micro y pequeñas empresas.</CardDescription>
+              <CardDescription>
+                Perfecto para micro y pequeñas empresas.
+              </CardDescription>
             </CardHeader>
             <CardContent className="text-center flex-1">
               <div className="my-4">
@@ -46,15 +56,15 @@ export function Pricing() {
               </ul>
             </CardContent>
             <CardFooter>
-              <Button className="w-full">
-                Empezar Ahora
-              </Button>
+              <Button className="w-full">Empezar Ahora</Button>
             </CardFooter>
           </Card>
           <Card className="shadow-lg border-2 border-primary bg-background flex flex-col">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl">Contador Pro</CardTitle>
-              <CardDescription>Para contadores y estudios contables.</CardDescription>
+              <CardDescription>
+                Para contadores y estudios contables.
+              </CardDescription>
             </CardHeader>
             <CardContent className="text-center flex-1">
               <div className="my-4 flex items-center justify-center h-[60px]">
@@ -80,7 +90,10 @@ export function Pricing() {
               </ul>
             </CardContent>
             <CardFooter>
-              <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90" size="lg">
+              <Button
+                className="w-full bg-accent text-accent-foreground hover:bg-accent/90"
+                size="lg"
+              >
                 Contactar Ventas
               </Button>
             </CardFooter>
