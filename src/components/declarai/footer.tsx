@@ -33,9 +33,6 @@ export function Footer() {
             </Link>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          DeclarAI_Area_de_Software
-        </div>
       </div>
     </footer>
   );
