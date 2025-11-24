@@ -20,13 +20,13 @@ export function Footer() {
           </div>
           <div className="flex items-center gap-6">
             <Link
-              href="#"
+              href="/terms"
               className="text-sm text-muted-foreground hover:text-foreground"
             >
               Términos
             </Link>
             <Link
-              href="#"
+              href="/privacy"
               className="text-sm text-muted-foreground hover:text-foreground"
             >
               Privacidad
