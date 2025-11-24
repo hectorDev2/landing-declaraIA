@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
@@ -16,7 +17,7 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <div className="mr-auto flex items-center">
           <Link href="/" className="mr-6 flex items-center">
-            <span className="text-xl font-bold text-primary">DeclarAI</span>
+            <Image src="/logo.png" alt="DeclarAI" width={150} height={40} className="h-10 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
             {navLinks.map((link) => (
@@ -45,7 +46,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="grid gap-6 text-lg font-medium p-6">
                 <Link href="/" className="flex items-center gap-2 mb-4">
-                  <span className="text-xl font-bold text-primary">DeclarAI</span>
+                  <Image src="/logo.png" alt="DeclarAI" width={150} height={40} className="h-10 w-auto" />
                 </Link>
                 {navLinks.map((link) => (
                   <Link

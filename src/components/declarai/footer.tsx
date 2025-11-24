@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -6,7 +7,7 @@ export function Footer() {
       <div className="container py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
-            <p className="text-lg font-bold text-primary">DeclarAI</p>
+            <Image src="/logo.png" alt="DeclarAI" width={150} height={40} className="h-10 w-auto mb-2 mx-auto md:mx-0" />
             <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Todos los derechos reservados.</p>
           </div>
           <div className="flex items-center gap-6">
