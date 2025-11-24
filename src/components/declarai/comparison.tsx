@@ -1,18 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { 
-  CheckCircle2, 
-  XCircle, 
-  Clock, 
-  AlertTriangle, 
-  Wallet, 
-  CalendarClock, 
+import {
+  CheckCircle2,
+  XCircle,
+  Clock,
+  AlertTriangle,
+  Wallet,
+  CalendarClock,
   Zap,
   ShieldCheck,
   PiggyBank,
   History,
-  ArrowRight
+  ArrowRight,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -24,28 +24,28 @@ const comparisonData = [
     icon: Clock,
     traditional: "Manual y lento (Horas)",
     declarai: "Automático (Segundos)",
-    declaraiIcon: Zap
+    declaraiIcon: Zap,
   },
   {
     feature: "Precisión",
     icon: AlertTriangle,
     traditional: "Errores humanos frecuentes",
     declarai: "Validación IA sin errores",
-    declaraiIcon: ShieldCheck
+    declaraiIcon: ShieldCheck,
   },
   {
     feature: "Costo",
     icon: Wallet,
     traditional: "Contador costoso + Multas",
     declarai: "Suscripción accesible",
-    declaraiIcon: PiggyBank
+    declaraiIcon: PiggyBank,
   },
   {
     feature: "Disponibilidad",
     icon: CalendarClock,
     traditional: "Lunes a Viernes, 9-6",
     declarai: "24/7, Todo el año",
-    declaraiIcon: History
+    declaraiIcon: History,
   },
 ];
 
@@ -72,7 +72,6 @@ export function Comparison() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center max-w-6xl mx-auto">
-          
           {/* Traditional Way (Left) */}
           <div className="lg:col-span-5">
             <Card className="border-destructive/10 bg-white/50 backdrop-blur-sm relative overflow-hidden transition-all duration-300 hover:shadow-lg">
@@ -91,8 +90,8 @@ export function Comparison() {
                     key={index}
                     className={cn(
                       "p-4 rounded-lg border transition-all duration-300",
-                      hoveredIndex === index 
-                        ? "bg-destructive/5 border-destructive/30 scale-[1.02] shadow-sm" 
+                      hoveredIndex === index
+                        ? "bg-destructive/5 border-destructive/30 scale-[1.02] shadow-sm"
                         : "bg-transparent border-transparent opacity-70"
                     )}
                     onMouseEnter={() => setHoveredIndex(index)}
@@ -100,9 +99,13 @@ export function Comparison() {
                   >
                     <div className="flex items-center gap-3 mb-1">
                       <item.icon className="w-4 h-4 text-slate-400" />
-                      <span className="text-xs font-bold uppercase tracking-wider text-slate-400">{item.feature}</span>
+                      <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                        {item.feature}
+                      </span>
                     </div>
-                    <p className="text-sm font-medium text-slate-600">{item.traditional}</p>
+                    <p className="text-sm font-medium text-slate-600">
+                      {item.traditional}
+                    </p>
                   </div>
                 ))}
               </CardContent>
@@ -128,7 +131,7 @@ export function Comparison() {
                 </Badge>
               </div>
               <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent"></div>
-              
+
               <CardHeader className="pb-2">
                 <CardTitle className="text-xl text-primary flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5" />
@@ -141,8 +144,8 @@ export function Comparison() {
                     key={index}
                     className={cn(
                       "p-4 rounded-lg border transition-all duration-300 cursor-default",
-                      hoveredIndex === index 
-                        ? "bg-primary/5 border-primary/30 scale-[1.02] shadow-md" 
+                      hoveredIndex === index
+                        ? "bg-primary/5 border-primary/30 scale-[1.02] shadow-md"
                         : "bg-slate-50/50 border-transparent"
                     )}
                     onMouseEnter={() => setHoveredIndex(index)}
@@ -150,8 +153,22 @@ export function Comparison() {
                   >
                     <div className="flex items-center justify-between mb-1">
                       <div className="flex items-center gap-3">
-                        <item.declaraiIcon className={cn("w-4 h-4 transition-colors", hoveredIndex === index ? "text-primary" : "text-slate-400")} />
-                        <span className={cn("text-xs font-bold uppercase tracking-wider transition-colors", hoveredIndex === index ? "text-primary" : "text-slate-400")}>
+                        <item.declaraiIcon
+                          className={cn(
+                            "w-4 h-4 transition-colors",
+                            hoveredIndex === index
+                              ? "text-primary"
+                              : "text-slate-400"
+                          )}
+                        />
+                        <span
+                          className={cn(
+                            "text-xs font-bold uppercase tracking-wider transition-colors",
+                            hoveredIndex === index
+                              ? "text-primary"
+                              : "text-slate-400"
+                          )}
+                        >
                           {item.feature}
                         </span>
                       </div>
@@ -159,7 +176,14 @@ export function Comparison() {
                         <CheckCircle2 className="w-4 h-4 text-green-500 animate-in fade-in zoom-in duration-300" />
                       )}
                     </div>
-                    <p className={cn("text-sm font-bold transition-colors", hoveredIndex === index ? "text-slate-800" : "text-slate-600")}>
+                    <p
+                      className={cn(
+                        "text-sm font-bold transition-colors",
+                        hoveredIndex === index
+                          ? "text-slate-800"
+                          : "text-slate-600"
+                      )}
+                    >
                       {item.declarai}
                     </p>
                   </div>
@@ -167,7 +191,6 @@ export function Comparison() {
               </CardContent>
             </Card>
           </div>
-
         </div>
       </div>
     </section>
