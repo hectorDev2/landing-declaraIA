@@ -5,7 +5,8 @@ const roadmapItems = [
   {
     period: "3 Meses",
     title: "MVP y Validación",
-    description: "Desarrollo del MVP con lectura automática de comprobantes y generación del resumen tributario.",
+    description:
+      "Desarrollo del MVP con lectura automática de comprobantes y generación del resumen tributario.",
     icon: Rocket,
     color: "text-blue-500",
     bg: "bg-blue-500/10",
@@ -13,7 +14,8 @@ const roadmapItems = [
   {
     period: "6 Meses",
     title: "Integración SUNAT",
-    description: "Integración directa con la plataforma de SUNAT y lanzamiento del piloto con 50 Mypes.",
+    description:
+      "Integración directa con la plataforma de SUNAT y lanzamiento del piloto con 50 Mypes.",
     icon: Building2,
     color: "text-purple-500",
     bg: "bg-purple-500/10",
@@ -21,7 +23,8 @@ const roadmapItems = [
   {
     period: "12 Meses",
     title: "Escalamiento",
-    description: "Alianzas con contadores y gremios (restaurantes, comercio, servicios). Meta: +500 Mypes usuarias.",
+    description:
+      "Alianzas con contadores y gremios (restaurantes, comercio, servicios). Meta: +500 Mypes usuarias.",
     icon: Users,
     color: "text-green-500",
     bg: "bg-green-500/10",
@@ -37,7 +40,8 @@ export function Roadmap() {
             Nuestro Camino (Roadmap)
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Tenemos un plan claro para revolucionar la contabilidad de las Mypes en el Perú.
+            Tenemos un plan claro para revolucionar la contabilidad de las Mypes
+            en el Perú.
           </p>
         </div>
 
@@ -47,19 +51,27 @@ export function Roadmap() {
 
           <div className="space-y-12">
             {roadmapItems.map((item, index) => (
-              <div key={index} className={`flex flex-col md:flex-row items-center gap-8 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
-                
+              <div
+                key={index}
+                className={`flex flex-col md:flex-row items-center gap-8 ${
+                  index % 2 === 0 ? "md:flex-row-reverse" : ""
+                }`}
+              >
                 {/* Content Card */}
                 <div className="flex-1 w-full">
                   <Card className="hover:shadow-lg transition-shadow duration-300 border-primary/20">
                     <CardHeader className="pb-2">
-                      <div className={`w-fit px-3 py-1 rounded-full text-xs font-bold mb-2 ${item.bg} ${item.color}`}>
+                      <div
+                        className={`w-fit px-3 py-1 rounded-full text-xs font-bold mb-2 ${item.bg} ${item.color}`}
+                      >
                         {item.period}
                       </div>
                       <CardTitle className="text-xl">{item.title}</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-muted-foreground">{item.description}</p>
+                      <p className="text-muted-foreground">
+                        {item.description}
+                      </p>
                     </CardContent>
                   </Card>
                 </div>

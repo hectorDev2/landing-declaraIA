@@ -1,20 +1,30 @@
-import { Smartphone, BrainCircuit, Landmark, ArrowRight, FileText, PieChart } from "lucide-react";
+import {
+  Smartphone,
+  BrainCircuit,
+  Landmark,
+  ArrowRight,
+  FileText,
+  PieChart,
+} from "lucide-react";
 
 const steps = [
   {
     icon: Smartphone,
     title: "1. Captura o Sube",
-    description: "Toma fotos o sube tus comprobantes en PDF. El sistema acepta ambos formatos para tu comodidad.",
+    description:
+      "Toma fotos o sube tus comprobantes en PDF. El sistema acepta ambos formatos para tu comodidad.",
   },
   {
     icon: BrainCircuit,
     title: "2. Clasificación y Extracción",
-    description: "La IA reconoce cada documento, clasifica si es venta o compra, y extrae montos y fechas automáticamente.",
+    description:
+      "La IA reconoce cada documento, clasifica si es venta o compra, y extrae montos y fechas automáticamente.",
   },
   {
     icon: PieChart,
     title: "3. Resumen Tributario",
-    description: "Se arma automáticamente el resumen del mes: ventas, compras e IGV, listo para declarar.",
+    description:
+      "Se arma automáticamente el resumen del mes: ventas, compras e IGV, listo para declarar.",
   },
 ];
 
@@ -27,13 +37,21 @@ export function HowItWorks() {
             ¿Cómo funciona?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            El emprendedor toma fotos o sube sus comprobantes en PDF. La IA reconoce cada documento, clasifica si es venta o compra, extrae los montos y fechas, y arma automáticamente el resumen tributario del mes. Con esa información, el sistema genera la declaración lista para presentar ante la SUNAT, en solo minutos y sin hacer cálculos manuales.
+            El emprendedor toma fotos o sube sus comprobantes en PDF. La IA
+            reconoce cada documento, clasifica si es venta o compra, extrae los
+            montos y fechas, y arma automáticamente el resumen tributario del
+            mes. Con esa información, el sistema genera la declaración lista
+            para presentar ante la SUNAT, en solo minutos y sin hacer cálculos
+            manuales.
           </p>
         </div>
 
         <div className="mt-16 grid grid-cols-1 items-center gap-x-8 gap-y-16 md:grid-cols-3">
           {steps.map((step, index) => (
-            <div key={index} className="relative flex flex-col items-center text-center">
+            <div
+              key={index}
+              className="relative flex flex-col items-center text-center"
+            >
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 text-primary mb-6">
                 <step.icon className="h-8 w-8" />
               </div>
