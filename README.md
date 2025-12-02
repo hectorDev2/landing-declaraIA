@@ -1,6 +1,6 @@
-# DeclarAI - Landing Page
+# DeclaraIA - Landing Page
 
-Bienvenido al repositorio de la landing page de **DeclarAI**, la solución inteligente para la automatización de declaraciones tributarias en Perú. Este proyecto presenta la propuesta de valor, características y planes de DeclarAI a través de una interfaz moderna, interactiva y totalmente responsiva.
+Bienvenido al repositorio de la landing page de **DeclaraIA**, la solución inteligente para la automatización de declaraciones tributarias en Perú. Este proyecto presenta la propuesta de valor, características y planes de DeclaraIA a través de una interfaz moderna, interactiva y totalmente responsiva.
 
 ## 🚀 Características
 
@@ -80,7 +80,7 @@ src/
 ├── ai/                 # Configuración y flujos de Genkit (IA)
 ├── app/                # Rutas y layouts de Next.js (App Router)
 ├── components/
-│   ├── declarai/       # Componentes específicos de la landing (Hero, Pricing, etc.)
+│   ├── declaraia/      # Componentes específicos de la landing (Hero, Pricing, etc.)
 │   └── ui/             # Componentes reutilizables de Shadcn UI
 ├── hooks/              # Hooks personalizados de React
 └── lib/                # Utilidades y configuraciones
@@ -99,4 +99,4 @@ src/
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerencias o correcciones.
 
 ---
-Desarrollado con ❤️ por el equipo de DeclarAI.
+Desarrollado con ❤️ por el equipo de DeclaraIA.

@@ -31,7 +31,7 @@ export default function PrivacyPage() {
             1. Información que Recopilamos
           </h2>
           <p>
-            En DeclarAI, nos tomamos muy en serio tu privacidad. Recopilamos la
+            En DeclaraIA, nos tomamos muy en serio tu privacidad. Recopilamos la
             siguiente información para brindarte nuestros servicios:
           </p>
           <ul className="list-disc pl-6 space-y-2">
@@ -125,7 +125,7 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-semibold">7. Contacto</h2>
           <p>
             Si tienes dudas sobre nuestra política de privacidad, contáctanos
-            en: privacidad@declarai.pe
+            en: privacidad@declaraia.pe
           </p>
         </section>
       </div>
