@@ -9,7 +9,7 @@ export function Footer() {
           <div className="text-center md:text-left">
             <Image
               src="/logo.png"
-              alt="DeclarAI"
+              alt="DeclaraIA"
               width={150}
               height={40}
               className="h-10 w-auto mb-2 mx-auto md:mx-0"

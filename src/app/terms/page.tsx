@@ -29,7 +29,7 @@ export default function TermsPage() {
         <section className="space-y-4 mb-8">
           <h2 className="text-2xl font-semibold">1. Introducción</h2>
           <p>
-            Bienvenido a DeclarAI. Estos Términos y Condiciones rigen el uso de
+            Bienvenido a DeclaraIA. Estos Términos y Condiciones rigen el uso de
             nuestra plataforma de automatización de declaraciones tributarias.
             Al acceder o utilizar nuestros servicios, aceptas estar legalmente
             vinculado por estos términos.
@@ -41,14 +41,14 @@ export default function TermsPage() {
             2. Descripción del Servicio
           </h2>
           <p>
-            DeclarAI proporciona herramientas basadas en inteligencia artificial
-            para facilitar el cálculo y la presentación de declaraciones
-            tributarias ante la SUNAT en Perú. Nuestros servicios incluyen la
-            extracción de datos de comprobantes, cálculo de impuestos y
-            generación de reportes.
+            DeclaraIA proporciona herramientas basadas en inteligencia
+            artificial para facilitar el cálculo y la presentación de
+            declaraciones tributarias ante la SUNAT en Perú. Nuestros servicios
+            incluyen la extracción de datos de comprobantes, cálculo de
+            impuestos y generación de reportes.
           </p>
           <p>
-            Aunque nos esforzamos por garantizar la precisión, DeclarAI es una
+            Aunque nos esforzamos por garantizar la precisión, DeclaraIA es una
             herramienta de asistencia y no sustituye el asesoramiento
             profesional legal o tributario.
           </p>
@@ -85,9 +85,10 @@ export default function TermsPage() {
         <section className="space-y-4 mb-8">
           <h2 className="text-2xl font-semibold">5. Propiedad Intelectual</h2>
           <p>
-            Todo el contenido, software, diseño y marcas registradas en DeclarAI
-            son propiedad exclusiva de DeclarAI o sus licenciantes. No se
-            permite la reproducción o distribución sin autorización expresa.
+            Todo el contenido, software, diseño y marcas registradas en
+            DeclaraIA son propiedad exclusiva de DeclaraIA o sus licenciantes.
+            No se permite la reproducción o distribución sin autorización
+            expresa.
           </p>
         </section>
 
@@ -96,7 +97,7 @@ export default function TermsPage() {
             6. Limitación de Responsabilidad
           </h2>
           <p>
-            DeclarAI no se hace responsable por multas, sanciones o pérdidas
+            DeclaraIA no se hace responsable por multas, sanciones o pérdidas
             financieras derivadas de errores en la información proporcionada por
             el usuario o cambios en la normativa tributaria no reflejados
             inmediatamente en la plataforma.
@@ -116,7 +117,7 @@ export default function TermsPage() {
           <h2 className="text-2xl font-semibold">8. Contacto</h2>
           <p>
             Si tienes preguntas sobre estos términos, por favor contáctanos a
-            través de nuestro correo electrónico de soporte: legal@declarai.pe
+            través de nuestro correo electrónico de soporte: legal@declaraia.pe
           </p>
         </section>
       </div>

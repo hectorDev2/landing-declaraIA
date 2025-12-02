@@ -63,7 +63,7 @@ export function Comparison() {
       <div className="container relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-headline">
-            ¿Por qué elegir DeclarAI?
+            ¿Por qué elegir DeclaraIA?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             La diferencia es clara. Deja atrás los métodos obsoletos y pásate al
@@ -122,7 +122,7 @@ export function Comparison() {
             </div>
           </div>
 
-          {/* DeclarAI Way (Right) */}
+          {/* DeclaraIA Way (Right) */}
           <div className="lg:col-span-5">
             <Card className="border-primary/20 bg-white shadow-2xl relative overflow-hidden transform transition-all duration-500 hover:scale-[1.02] ring-1 ring-primary/10">
               <div className="absolute top-0 right-0">
@@ -135,7 +135,7 @@ export function Comparison() {
               <CardHeader className="pb-2">
                 <CardTitle className="text-xl text-primary flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5" />
-                  Con DeclarAI
+                  Con DeclaraIA
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
