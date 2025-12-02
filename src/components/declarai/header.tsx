@@ -20,7 +20,7 @@ export function Header() {
           <Link href="/" className="mr-6 flex items-center">
             <Image
               src="/logo.png"
-              alt="DeclarAI"
+              alt="DeclaraIA"
               width={150}
               height={40}
               className="h-10 w-auto"
@@ -55,7 +55,7 @@ export function Header() {
                 <Link href="/" className="flex items-center gap-2 mb-4">
                   <Image
                     src="/logo.png"
-                    alt="DeclarAI"
+                    alt="DeclaraIA"
                     width={150}
                     height={40}
                     className="h-10 w-auto"
